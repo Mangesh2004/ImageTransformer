@@ -12,7 +12,7 @@ cloudinary.config({
 
 interface CloudinaryUploadResult {
     public_id: string;
-    [key: string]: any
+    [key: string]: string
 }
 
 export async function POST(request: NextRequest) {
